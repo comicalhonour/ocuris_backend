@@ -2,7 +2,7 @@
 This is a modified version of the frontend whereby the data is actually being stored in a database locally.
 
 To ensure the database is working, make sure your database is named as "userinfo" and it has 2 subunits named "userinformation" which 
-contains "id"[type int with auto increment], {"name", "email", "birthday", "country", and "gender"}[type varchar(255)].
+contains "id"[type int with auto increment], {"name", "email", "birthday", "country", "gender"}[type varchar(255)].
 
 Meanwhile, the other subunit is named "inquire" which contains "id"[type int with auto increment], {"firstname", "lastname", "email", "question"}[type varchar(255)].
 
